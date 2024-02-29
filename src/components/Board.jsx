@@ -1,3 +1,8 @@
+import { useState } from "react";
+import DEFAULT_CARDS from "../data/data";
+import Column from "./Column";
+import BurnBarrel from "./BurnBarrel";
+
 const Board = () => {
     const [cards, setCards] = useState(DEFAULT_CARDS);
   

@@ -1,3 +1,5 @@
+import DropIndicator from "./DropIndicator";
+import  {motion} from "framer-motion";
 
 const Card = ({ title, id, column, handleDragStart }) => {
     return (

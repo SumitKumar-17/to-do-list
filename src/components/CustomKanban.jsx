@@ -1,7 +1,6 @@
-import React, { useState } from "react";
-import { FiPlus, FiTrash } from "react-icons/fi";
-import { motion } from "framer-motion";
-import { FaFire } from "react-icons/fa";
+import React from "react";
+import Board from "./Board";
+
 
 export const CustomKanban = () => {
   return (
